@@ -15,6 +15,7 @@
  */
 
 apply plugin: 'com.android.application'
+apply from: "${project.rootDir}/jacoco.gradle"
 
 android {
     compileSdkVersion 28
